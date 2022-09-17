@@ -185,8 +185,11 @@ p {
   background: #003147;
 }
 .interest ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 0px;
+  justify-content: space-between;
 }
 .interest ul li {
   list-style: none;
@@ -194,6 +197,7 @@ p {
   font-weight: 500;
   color: #848c90;
 }
+
 .interest ul li .fa {
   color: #003147;
   font-size: 18px;
